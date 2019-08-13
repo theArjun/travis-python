@@ -14,7 +14,7 @@ class Calculator:
     def __mul__(self, other):
         return self.num * other.num
 
-    def __truddiv__(self, other):
+    def __truediv__(self, other):
         return self.num / other.num
 
     def __str__(self):
