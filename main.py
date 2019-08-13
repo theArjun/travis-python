@@ -17,11 +17,13 @@ class Calculator:
     def __truediv__(self, other):
         return self.num / other.num
 
+    def __mod__(self, other):
+        return self.num % other.num
+
     def __str__(self):
         return "The value is %d" % (self.num)
 
-    def __mod__(self, other):
-        return self.num % other.num
+
 
 if __name__ == "__main__":
     unittest.main()
